@@ -23,7 +23,6 @@ from openseo.constants import CONFIG_FILE, KNOWN_PROVIDERS
 
 console = Console()
 
-
 def _check_dependency(module: str, display_name: str) -> tuple[str, bool, str]:
     """Check if a Python module is importable."""
     try:
